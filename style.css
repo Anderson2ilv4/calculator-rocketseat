@@ -9,6 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-family: "Rubik", sans-serif;
 }
 .container {
     border: 1px solid red;
@@ -25,6 +26,26 @@ body {
     height: 86px;
     border: 1px solid red;
     margin-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    padding-left: 18px;
+    padding-right: 22px;
+}
+.operation {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    color: #6B6B6B;
+}
+.result {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    font-size: 36px;
+    color: #EBEBEB;
 }
 .numbers_signals {
     width: 292px;
